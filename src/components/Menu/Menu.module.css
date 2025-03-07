@@ -1,0 +1,54 @@
+.menu {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    transition: width 0.3s ease-in-out;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.closed {
+    width: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.open {
+    width: 250px;
+}
+
+.toggleButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.menuItem {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submenuList {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.submenuItem {
+    padding: 5px 0;
+}
