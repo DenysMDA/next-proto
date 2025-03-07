@@ -1,0 +1,54 @@
+.button {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    padding: 10px 16px;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.primary {
+    background: #0078d4;
+    color: white;
+}
+
+.secondary {
+    background: #f3f3f3;
+    color: #323130;
+    border: 1px solid #ccc;
+}
+
+
+.small {
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+.medium {
+    font-size: 14px;
+    padding: 10px 16px;
+}
+
+.large {
+    font-size: 16px;
+    padding: 14px 20px;
+}
+
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:disabled {
+    background: #a0a0a0;
+    cursor: not-allowed;
+}
+
+
+.button:focus-visible {
+    outline: 2px solid #ffcc00;
+    outline-offset: 2px;
+    box-shadow: 0 0 5px rgba(255, 204, 0, 0.5);
+}

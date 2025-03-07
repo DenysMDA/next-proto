@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.2s ease-in-out;
+}
+
+.input:focus {
+    border-color: #0078d4;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 120, 212, 0.5);
+}
+
+.textarea {
+    min-height: 80px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+
+.error {
+    border-color: #d32f2f;
+}
+
+.errorMessage {
+    color: #d32f2f;
+    font-size: 12px;
+}

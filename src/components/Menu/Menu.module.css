@@ -1,5 +1,5 @@
 .menu {
-    width: 250px;
+    width: 150px;
     background-color: #f4f4f4;
     padding: 10px;
     border-right: 1px solid #ccc;
@@ -9,9 +9,7 @@
 }
 
 .closed {
-    width: 0;
-    overflow: hidden;
-    padding: 0;
+    display: none;
 }
 
 .open {
@@ -28,27 +26,13 @@
     text-align: left;
 }
 
-.menuList {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
+.link{
+    padding: 5px;
 }
 
-.menuItem {
-    background: none;
-    border: none;
-    width: 100%;
-    text-align: left;
-    padding: 10px;
-    cursor: pointer;
-    font-weight: bold;
+.link:hover {
+    background:  #007bff;
+    color: #ffffff;
 }
 
-.submenuList {
-    list-style: none;
-    padding-left: 15px;
-}
 
-.submenuItem {
-    padding: 5px 0;
-}

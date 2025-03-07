@@ -3,6 +3,23 @@
   --foreground: #171717;
 }
 
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.layoutContainer {
+  display: flex;
+  margin-top: 50px;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
